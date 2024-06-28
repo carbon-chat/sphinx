@@ -1,0 +1,205 @@
+@import url('./fonts/EudoxusSans.css');
+
+* {
+    user-select: none;
+}
+
+body {
+    font-family: 'Eudoxus Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(10, 10, 10);
+    overflow: hidden;
+}
+
+button {
+    font-family: 'Eudoxus Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    border: 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color: lightcoral;
+    outline: 0;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+button:hover {
+    background-color: coral;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 0.6em;
+}
+
+p {
+    margin: 0;
+    font-size: 1.4em;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul li,
+ol li {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ol li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+    border-left: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 0;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+hr {
+    border: 0;
+}
+
+input,
+textarea {
+    border: 0;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: inherit;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: inherit;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+    color: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: inherit;
+}
+
+input:disabled,
+textarea:disabled {
+    opacity: 1;
+}
+
+input::-ms-clear,
+textarea::-ms-clear {
+    display: none;
+}
+
+input::-ms-reveal,
+textarea::-ms-reveal {
+    display: none;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,41 @@
+@import url('./baseStyles.css');
+
+.gradient-text {
+    font-weight: bold;
+    background: linear-gradient(135deg, blue, turquoise, pink, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    flex-direction: column;
+    color: gainsboro;
+}
+
+.gradient-center {
+    width: 25%;
+    height: 20%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%), radial-gradient(circle, rgba(0, 255, 255, 1) 0%, rgba(255, 0, 255, 1) 50%, rgba(0, 0, 255, 1) 100%);
+    filter: blur(100px);
+    position: absolute;
+    z-index: -1;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
